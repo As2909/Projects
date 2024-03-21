@@ -21,3 +21,6 @@ You can see the raw data [here.](https://github.com/As2909/Projects/blob/main/SQ
 - 6.Delete Unused Columns: Deletes the OwnerAddress, TaxDistrict, PropertyAddress, and SaleDate columns.
 
 You can see all SQL queries [HERE.](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Data%20Cleaning.sql)
+
+#### Cleaned data :
+![alt text](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Final_table.png)
