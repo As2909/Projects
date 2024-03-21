@@ -16,7 +16,7 @@
 The data shows the sales of an electronics store, you can see the raw data in this **[Link](https://github.com/Roberto121c/Excel/tree/main/Files)**
 As you can see in the image below, the format of the data was not appropriate for the analysis, so it had to be cleaned and prepared. 
 
-![Raw Data](images/Raw_data.PNG)
+![Raw Data](Files/Raw_data.PNG)
 
 The activities performed were the following:
 - Eliminate duplicates and cells that did not correspond to the data.
