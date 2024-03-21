@@ -1,9 +1,13 @@
 ## Nashville Housing Data Cleaning Project
 #### Description
 
-This SQL script performs data cleaning operations on the Nashville Housing dataset. The dataset contains information about housing properties in Nashville, including sale dates, property addresses, and owner addresses. The script standardizes the date format, populates missing property addresses, breaks out addresses into individual columns (address, city, state), converts 'Y' and 'N' values to 'Yes' and 'No' in the 'SoldAsVacant' field, removes duplicate records, and deletes unused columns.
+This SQL script performs data cleaning operations on the Nashville Housing dataset. The dataset contains information about housing properties in Nashville, including sale dates, property addresses, and owner addresses. The script standardizes the date format, populates missing property addresses, breaks out addresses into individual columns (address, city, state), converts 'Y' and 'N' values to 'Yes' and 'No' in the 'SoldAsVacant' field, removes duplicate records, and deletes unused columns.z
 
-#### Steps
+You can see the raw data [here.](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Nashville%20Housing%20Data%20for%20Data%20Cleaning%201.csv)
+
+![alt text](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Nashville%20Housing%20Data%20for%20Data%20Cleaning%201.csv)
+
+#### Objective:
 - 1.Standardize Date Format: Converts the SaleDate column to a standard date format.
 
 - 2.Populate Property Address Data: Populates missing property addresses by matching ParcelID values and using non-null addresses from other records.
