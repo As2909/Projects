@@ -49,9 +49,9 @@ You can see the dashboards below and you can access the document by clicking on 
 
 ![Performance Overview](Files/Performance_Overview.PNG)
 
-**[Link to files](https://github.com/Roberto121c/Excel/tree/main/Files)**
+**[Link to files](https://github.com/As2909/Projects/tree/main/Excel%20-%20Sales%20Analysis/Files)**
 
-## Conclutions:
+## Conclusion:
 - Despite being the least sold product, the McBook Pro Laptop remains the best selling product every month.
 - The best times to sell are at 12:00 and 19:00 on Tuesdays, October and December are the best selling months.
 - Sales in California were much higher than in the other states, concentrating marketing efforts here would generate higher profits but it is necessary to analyze the competition and market saturation for a better conclusion.
