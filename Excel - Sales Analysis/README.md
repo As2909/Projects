@@ -13,7 +13,7 @@
 - What is the best time to sell our products?
 
 ## Cleaning and preparation:
-The data shows the sales of an electronics store, you can see the raw data in this **[Link](https://github.com/Roberto121c/Excel/tree/main/Files](https://github.com/As2909/Projects/blob/main/Excel%20-%20Sales%20Analysis/Files/SALES_DATA_2019.csv)**
+The data shows the sales of an electronics store, you can see the raw data in this **[Link](https://github.com/As2909/Projects/blob/main/Excel%20-%20Sales%20Analysis/Files/SALES_DATA_2019.csv)**
 As you can see in the image below, the format of the data was not appropriate for the analysis, so it had to be cleaned and prepared. 
 
 ![Raw Data](Files/Raw_data.PNG)
