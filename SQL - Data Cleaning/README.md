@@ -5,7 +5,7 @@ This SQL script performs data cleaning operations on the Nashville Housing datas
 
 You can see the raw data [here.](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Nashville%20Housing%20Data%20for%20Data%20Cleaning%201.csv)
 
-![alt text](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Nashville%20Housing%20Data%20for%20Data%20Cleaning%201.csv)
+![alt text](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Raw%20Data.png)
 
 #### Objective:
 - 1.Standardize Date Format: Converts the SaleDate column to a standard date format.
