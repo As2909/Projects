@@ -22,5 +22,5 @@ You can see the raw data [here.](https://github.com/As2909/Projects/blob/main/SQ
 
 You can see all SQL queries [HERE.](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Data%20Cleaning.sql)
 
-#### Cleaned data :
+#### Final data :
 ![alt text](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Final_table.png)
