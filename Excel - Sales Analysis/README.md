@@ -43,11 +43,11 @@ Most of this analysis was done using Excel pivot tables and visualizations consi
 
 ## Visualization:
 Finally we obtained a dashboard with 2 sheets showing the sales in a general way and the other one showing the performance of these at different times of the day and weeks. 
-You can see the dashboards below and you can access the document by clicking on this **[Link](https://github.com/Roberto121c/Excel/tree/main/Files)**
+You can see the dashboards below and you can access the document by clicking on this **[Link](https://github.com/As2909/Projects/blob/main/Excel%20-%20Sales%20Analysis/Files/SALES_DATA_2019_Report.xlsx)**
 
-![Sales Overview](images/Sales_overview.PNG)
+![Sales Overview](Files/Sales_overview.PNG)
 
-![Performance Overview](images/Performance_Overview.PNG)
+![Performance Overview](Files/Performance_Overview.PNG)
 
 **[Link to files](https://github.com/Roberto121c/Excel/tree/main/Files)**
 
