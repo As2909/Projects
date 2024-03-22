@@ -1,4 +1,4 @@
-# Project: Dataset Professional Survey Dashboard
+# Project: Professional Survey Dashboard
 
 ## Overview
 In this project, I created a dashboard in Power BI to visualize and analyze the dataset "data_professional_survey" This dataset contains information about data professionals, including their demographics, job roles, salaries, and more. The goal of the dashboard is to provide insights into the characteristics and trends of data professionals based on the survey data.
@@ -15,7 +15,7 @@ In this project, I created a dashboard in Power BI to visualize and analyze the 
 - **Skills:** Visualizations highlighting the most favorite programming languages among data professionals.
 
 ## Dashboard Screenshots
-![dashboard](Files/Power BI - Final Project.xlsx)
+![dashboard](Files/Dashboard.png)
 
 ## Project Outcome
 - The dashboard provides a comprehensive view of the dataset showing prfessional are not happing with their salaries below **5** in **0 - 10** scale and work/life is also average below **6**.
