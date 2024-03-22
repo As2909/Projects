@@ -17,7 +17,7 @@ In this project, I created a dashboard in Power BI to visualize and analyze the 
 ## Dashboard Screenshots
 ![dashboard](https://github.com/As2909/Projects/blob/main/PowerBI%20-%20Survey%20Analysis/Files/final%20dashboard.png)
 
- You can download the dashboard and view in PowerBi **[HERE](https://github.com/As2909/Projects/blob/main/PowerBI%20-%20Survey%20Analysis/Files/Data%20Proffesional%20Survey.pbix)**
+ You can download the dashboard **[HERE.](https://github.com/As2909/Projects/blob/main/PowerBI%20-%20Survey%20Analysis/Files/Data%20Proffesional%20Survey.pbix)**
  
 ## Project Outcome
 - The dashboard provides a comprehensive view of the dataset showing prfessional are not happing with their salaries below **5** in **0 - 10** scale and work/life is also average below **6**.
