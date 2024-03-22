@@ -9,5 +9,8 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 #### Listings Sheet 
 ![Listings](Images/Listing.png)
 
+#### Reviews Sheet
+![Reviews](Images/Reviews.png)
+
 #### Calendar Sheet
-![calendar](https://github.com/As2909/Projects/blob/main/Tableau%20-%20Airbnb/Images/Calendar.png)
+![calendar](Images/Calendar.png)
