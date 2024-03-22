@@ -6,7 +6,7 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 - Sheet_name = Calendar
 - Sheet_name = Reviews
 
-You can see the source dataset **[HERE](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset)**
+You can see the source dataset  **[HERE](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset)**
 
 #### Dataset - Listings
 - We have 92 columns and 3818 rows
