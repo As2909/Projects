@@ -7,7 +7,7 @@ You can see the raw data [here.](https://github.com/As2909/Projects/blob/main/SQ
 
 ![alt text](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Raw%20Data.png)
 
-#### Objective:
+#### Steps:
 - 1.Standardize Date Format: Converts the SaleDate column to a standard date format.
 
 - 2.Populate Property Address Data: Populates missing property addresses by matching ParcelID values and using non-null addresses from other records.
