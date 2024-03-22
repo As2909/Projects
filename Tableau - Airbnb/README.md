@@ -6,5 +6,8 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 - Sheet_name = Calendar
 - Sheet_name = Reviews
 
-#### Listings sheet 
-![Listings]()
+#### Listings Sheet 
+![Listings](Images/Listing.png)
+
+#### Calendar Sheet
+![calendar](https://github.com/As2909/Projects/blob/main/Tableau%20-%20Airbnb/Images/Calendar.png)
