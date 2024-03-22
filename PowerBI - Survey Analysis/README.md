@@ -15,7 +15,7 @@ In this project, I created a dashboard in Power BI to visualize and analyze the 
 - **Skills:** Visualizations highlighting the most favorite programming languages among data professionals.
 
 ## Dashboard Screenshots
-![dashboard](Files/final dashboard.png)
+![dashboard](https://github.com/As2909/Projects/blob/main/PowerBI%20-%20Survey%20Analysis/Files/final%20dashboard.png)
 
 ## Project Outcome
 - The dashboard provides a comprehensive view of the dataset showing prfessional are not happing with their salaries below **5** in **0 - 10** scale and work/life is also average below **6**.
