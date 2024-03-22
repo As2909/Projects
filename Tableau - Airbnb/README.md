@@ -13,7 +13,7 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 
 #### Dataset - Reviews
 - We have 6 columns and 84849rows
-  
+
 ![Reviews](Images/Reviews.png)
 
 #### Calendar Sheet
@@ -21,3 +21,7 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 - 4 columns -> listing_id & date & available & price
   
 ![calendar](Images/Calendar.png)
+
+#### Final Dashboard
+![dashboard](Images/Dashboard.png)
+
