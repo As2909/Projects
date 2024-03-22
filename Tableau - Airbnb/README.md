@@ -6,11 +6,18 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 - Sheet_name = Calendar
 - Sheet_name = Reviews
 
-#### Listings Sheet 
+#### Dataset - Listings
+- We have 92 columns and 3818 rows
+  
 ![Listings](Images/Listing.png)
 
-#### Reviews Sheet
+#### Dataset - Reviews
+- We have 6 columns and 84849rows
+  
 ![Reviews](Images/Reviews.png)
 
 #### Calendar Sheet
+- We have 4 columns and 1 M rows
+- 4 columns -> listing_id & date & available & price
+  
 ![calendar](Images/Calendar.png)
