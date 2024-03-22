@@ -33,6 +33,8 @@ You can see the source dataset  **[HERE](https://www.kaggle.com/datasets/alexand
 #### Final Dashboard
 ![dashboard](Images/Dashboard.png)
 
+You can also see my dashboard **[HERE](https://public.tableau.com/app/profile/ankit.sharma4125/viz/AirBnbFullProject_16946089051120/Dashboard1)**
+
 #### Conclusion:
 - The avg.price per bedroom for 6 room is highest if we focus to sell these more we gain more profit.
 - One room set having highest listings.
