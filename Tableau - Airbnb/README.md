@@ -24,8 +24,17 @@ You can see the source dataset  **[HERE](https://www.kaggle.com/datasets/alexand
   
 ![calendar](Images/Calendar.png)
 
+#### Tasks:
+- Calculate the Avg.Price Per Bedroom
+- Distinct Count of Bedroom Listings
+- Price Per Zipcode
+- Revenue for Year
+
 #### Final Dashboard
 ![dashboard](Images/Dashboard.png)
 
 #### Conclusion:
-- 
+- The avg.price per bedroom for 6 room is highest if we focus to sell these more we gain more profit.
+- One room set having highest listings.
+- The zipcode 98101 have highest buys.
+- Monthly revenue for a year is constant increases but there is slight down in months of April to June.
