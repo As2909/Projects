@@ -37,7 +37,8 @@ You can see all the SQL queries **[HERE](https://github.com/As2909/Projects/blob
 ### Visualizations 
 The final product is a 2 pages dashboard. The first one tell us sales overview and other one is about worst/best sellers pizzas.
 
-You can download the final dashboard by clicking **[HERE](Files/)** or in the image below
+You can download the final dashboard by clicking **[HERE](https://github.com/As2909/Projects/blob/main/Sales%20Analysis%20Project/Files/Pizza%20Sales%20Report.pbix)** or in the image below
+
 
 
 ### Conclusions
