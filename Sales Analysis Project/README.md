@@ -16,11 +16,10 @@ Data set contains 48620 rows and 12 columns.
 
 ### Data Queries
 
-(https://github.com/As2909/Projects/blob/main/Sales%20Analysis%20Project/Files/Pizza%20Sales.sql)**
-
-
-You can see all the SQL queries **[HERE]
 ![(images/Sales query.PNG)](Files/table.jpg)
+
+
+You can see all the SQL queries **[HERE](https://github.com/As2909/Projects/blob/main/Sales%20Analysis%20Project/Files/Pizza%20Sales.sql)**
 
 ### Visualizations 
 The final product is a 2 pages dashboard. The first one tell us sales overview and other one is about worst/best sellers pizzas.
