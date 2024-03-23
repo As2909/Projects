@@ -18,7 +18,10 @@ Data set contains 48620 rows and 12 columns.
 
 ![(images/Sales query.PNG)](Files/table.jpg)
 
+-  First quarter best pizza size
+![top5_pizza_size_quarter1](Files/top5_pizza_size.png)
 
+- Top 5 Pizza 
 You can see all the SQL queries **[HERE](https://github.com/As2909/Projects/blob/main/Sales%20Analysis%20Project/Files/Pizza%20Sales.sql)**
 
 ### Visualizations 
