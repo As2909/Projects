@@ -39,6 +39,11 @@ The final product is a 2 pages dashboard. The first one tell us sales overview a
 
 You can download the final dashboard by clicking **[HERE](https://github.com/As2909/Projects/blob/main/Sales%20Analysis%20Project/Files/Pizza%20Sales%20Report.pbix)** or in the image below
 
+**Sales Overview**
+![sales](Files/sales_overview_dashboard.png)
+
+**Best/Worst Sellers**
+![best/worst](Files/best_worst_dashboard.png)
 
 
 ### Conclusions
