@@ -11,7 +11,7 @@ The goal is to build a sales report that shows summarized information about the 
 The most important indicators are sales, budget, top products & worst products:
 
 ### Data Queries
-You can see all the SQL queries **[HERE](Files/pizza_sales.sql)**:
+You can see all the SQL queries **[HERE](https://github.com/As2909/Projects/blob/main/Sales%20Analysis%20Project/Files/Pizza%20Sales.sql)**:
 
 [![](images/Sales query.PNG)](https://github.com/Roberto121c/Sales_Management/tree/main/Query)
 
