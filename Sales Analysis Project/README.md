@@ -3,8 +3,7 @@
 * This project explores different business metrics and how they can be displayed graphically.
 * I explore the relation between sales and products
 * We can obtain conclusions that will help us to make better marketing campaigns and improve profits
-* The tools used are MsSQL server and Power-BI
-* First we used SQL queries to generate the see the and next see all the queries result to visualize in PowerBI
+* Tools used include MsSQL Server for data querying and Power BI for visualization.
 
 ### Objectives:
 The goal is to build a sales report that shows summarized information about the business´s current situation to understand how to make more profits. 
