@@ -18,7 +18,7 @@ Data set contains 48620 rows and 12 columns.
 
 You can see all the SQL queries **[HERE](https://github.com/As2909/Projects/blob/main/Sales%20Analysis%20Project/Files/Pizza%20Sales.sql)**:
 
-[![](images/Sales query.PNG)](https://github.com/Roberto121c/Sales_Management/tree/main/Query)
+[![](images/Sales query.PNG)](Files/table.jpg)
 
 ### Data model:
 You can see in this image the data model used in Power BI after the data was extracted
