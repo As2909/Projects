@@ -20,9 +20,10 @@ In this project, I created a dashboard in Power BI to visualize and analyze the 
  You can download the dashboard **[HERE.](https://github.com/As2909/Projects/blob/main/PowerBI%20-%20Survey%20Analysis/Files/Data%20Proffesional%20Survey.pbix)**
  
 ## Project Outcome
-- The dashboard provides a comprehensive view of the dataset showing prfessional are not happing with their salaries below **5** in **0 - 10** scale and work/life is also average below **6**.
-- The favorite programming language is **python**.
-- **Forty Five percent** professional things is not neither easy nor difficult.
+- Professionals who are not happy with their salaries rate it below **5** on a **0-10 scale**.
+- Work/life balance is rated average **below 6** by professionals.
+- The favorite programming language among professionals **Python**.
+- **Forty Five percent** professional things is not neither easy nor difficulty to entry in data field.
 -  Highest salary takers are **Data Scientist** among data professionals.
   
 The dashboard can be used by HR professionals, recruiters, and data enthusiasts to understand the current landscape of the data profession.
