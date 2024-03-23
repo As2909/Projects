@@ -11,7 +11,7 @@ The goal is to build a sales report that shows summarized information about the 
 The most important indicators are sales, budget, top products & worst products.
 
 ### About Dataset:
-Data set contains sales information of pizzas.
+Data set contains sales information of pizzas. \
 Data set contains 48620 rows and 12 columns.
 
 ### Data Queries
