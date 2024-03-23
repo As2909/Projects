@@ -1,4 +1,3 @@
--- Select all columns from the pizza_sales table
 SELECT * FROM pizza_sales;
 
 -- Calculate the total revenue from pizza sales
