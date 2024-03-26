@@ -54,6 +54,8 @@ The `transform_data()` function processes the raw comment data into a structured
 ## Data Loading
 The transformed data is then loaded into Azure Blob Storage using the `load_data()` function. The data is saved as a CSV file in a specified container in the Azure Blob Storage account.
 
+Please refer to this for full code [HERE.](Files/youtube.etl.py)
+
 ## Airflow DAG
 The ETL process is orchestrated using Apache Airflow. A DAG (Directed Acyclic Graph) named `youtube_etl` is created with a single task `run_etl_task` that executes the ETL process. The DAG is scheduled to run daily to ensure that new comments are captured regularly.
 
