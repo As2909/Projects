@@ -33,6 +33,24 @@ Some videos have more tahn on page of comments. I used a while looop taht looked
 Once the comments are extracted understanding the data and its structure and getting and getting the data I needed. CommentsThreads endpoint offers a list of comment threads. I needed to extract each comment from the list.
 The `transform_data()` function processes the raw comment data into a structured format. It extracts relevant information such as the author's name, comment text, publish time, and like count for each comment.
 
+```python
+   comments = []
+    for item in response_collection:
+        comment = item["snippet"]["topLevelComment"]["snippet"]
+        author = comment["authorDisplayName"]
+        comment_text = comment["textOriginal"]
+        publish_time = comment["publishedAt"]
+        like_count = comment["likeCount"]
+        comment_info = {
+            "author": author,
+            "comment_text": comment_text,
+            "publish_time": publish_time,
+            "like_count": like_count
+        }
+        comments.append(comment_info)
+
+    return pd.DataFrame(comments)
+```
 ## Data Loading
 The transformed data is then loaded into Azure Blob Storage using the `load_data()` function. The data is saved as a CSV file in a specified container in the Azure Blob Storage account.
 
