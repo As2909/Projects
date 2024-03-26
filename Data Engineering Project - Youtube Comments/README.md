@@ -15,7 +15,7 @@ The project starts with extracting comments from a YouTube video using the YouTu
 In my youtube_etl code i used `extract_data()` function  to fetches comments in batches using pagination to ensure all comments are retrieved.
 Some videos have more tahn on page of comments. I used a while looop taht looked for the nextPageToken in each response to retrieve all comments. Whenever another page of comments was available, the response would include anextPageToken.
 
-`    while True:
+``    while True:
         request = youtube.commentThreads().list(
             part="snippet,replies",
             videoId="YOUR_VIDEO_ID",
@@ -25,7 +25,8 @@ Some videos have more tahn on page of comments. I used a while looop taht looked
         response_collection.extend(response["items"])
         nextPageToken = response.get("nextPageToken")
         if not nextPageToken:
-            break`
+            break
+``
             
 ## Data Transformation
 Once the comments are extracted understanding the data and its structure and getting and getting the data I needed. CommentsThreads endpoint offers a list of comment threads. I needed to extract each comment from the list.
