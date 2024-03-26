@@ -11,14 +11,17 @@ This project focuses on extracting, transforming, and loading (ETL) YouTube comm
 - Apache Airflow for workflow management
 
 ## Connect to VM
-- For connect my vscode to azure vm i used native ssh command in terminal
+To extract and process YouTube comments data, we need to connect to an Azure VM where the data processing tasks will be performed. Additionally, setting up the Azure VM as a storage blob data contributor allows us to directly store the extracted CSV file in Azure Blob Storage.
+
+- Use the native SSH command to connect to the Azure VM. Replce with the actual IP address of your Azure VM.
 
 ![ssh_to_vm](Files/ssh_to_vm.png)
 
 - Placed the given code in terminal
 ![connect_to_vm](Files/connect_to_vm.png)
 
-- Make the vm instance through the IAM in azure as a storage blob data contributor because i want the my extracted csv to placed in blob storage
+- Navigate to the IAM (Identity and Access Management) section in the Azure portal.
+- Create a new role assignment for the Azure VM instance, giving it the role of "Storage Blob Data Contributor".
 
 ![iam_to_vm](Files/iam_to_vm.png)
 
