@@ -4,6 +4,7 @@
 This project focuses on extracting, transforming, and loading (ETL) YouTube comments data using the YouTube Data API and Azure Blob Storage. The goal is to collect comments from a specific YouTube video, process them into a structured format, and store them in Azure Blob Storage for further analysis. Airflow is used to orchestrate the whole ETL process.
 
 ## Tools and Technologies Used
+- Azure VM instance
 - Google API Client Library for accessing the YouTube Data API
 - Pandas for data manipulation
 - Azure Storage Blob SDK for interacting with Azure Blob Storage
@@ -53,12 +54,17 @@ The `transform_data()` function processes the raw comment data into a structured
 ```
 ## Data Loading
 The transformed data is then loaded into Azure Blob Storage using the `load_data()` function. The data is saved as a CSV file in a specified container in the Azure Blob Storage account.
+![blob_youtube_comments](Files/output_csv.png)
 
-Please refer to this for full code [HERE.](Files/youtube.etl.py)
+Please refer to this for full code [HERE.](Files/youtube_etl.py)
+
 
 ## Airflow DAG
 The ETL process is orchestrated using Apache Airflow. A DAG (Directed Acyclic Graph) named `youtube_etl` is created with a single task `run_etl_task` that executes the ETL process. The DAG is scheduled to run daily to ensure that new comments are captured regularly.
+Youtube_ETL code is [HERE.](Files/youtube_dag.py)
 
 ## Conclusion
-This project demonstrates a basic ETL pipeline for processing YouTube comments data. It showcases how data can be extracted from an API, transformed into a usable format, and loaded into a storage system for further analysis.
+This project demonstrates an ETL pipeline for processing YouTube comments data using the Google API. Extracted data in CSV format can be further analyzed for sentiment analysis and used to recommend improvements for future YouTube videos. 
+
+I extracted the comments of the newly launched OnePlus device, which helps the manufacturer analyze the comments to see how the public reacts to their products and make further improvements.
 
