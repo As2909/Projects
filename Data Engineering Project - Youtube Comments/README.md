@@ -10,6 +10,9 @@ This project focuses on extracting, transforming, and loading (ETL) YouTube comm
 - Azure Storage Blob SDK for interacting with Azure Blob Storage
 - Apache Airflow for workflow management
 
+## Connect to VM
+
+
 ## Data Extraction
 The project starts with extracting comments from a YouTube video using the YouTube Data API. Google has simplified their API usage, providing an API explorer that lets me see the returned data directly within explorer itself.
 ![api_explore](Files/1google_api_explorer.png)
@@ -54,7 +57,9 @@ The `transform_data()` function processes the raw comment data into a structured
 ```
 ## Data Loading
 The transformed data is then loaded into Azure Blob Storage using the `load_data()` function. The data is saved as a CSV file in a specified container in the Azure Blob Storage account.
+
 ![blob_youtube_comments](Files/output_csv.png)
+
 
 Please refer to this for full code [HERE.](Files/youtube_etl.py)
 
