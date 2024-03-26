@@ -13,7 +13,7 @@ This project focuses on extracting, transforming, and loading (ETL) YouTube comm
 ## Connect to VM
 - For connect my vscode to azure vm i used native ssh command in terminal
 
-![ssh_to_vm](FIles/ssh_to_vm.png)
+![ssh_to_vm](Files/ssh_to_vm.png)
 
 - Placed the given code in terminal
 ![connect_to_vm](Files/connect_to_vm.png)
@@ -75,6 +75,9 @@ Please refer to this for full code [HERE.](Files/youtube_etl.py)
 
 ## Airflow DAG
 The ETL process is orchestrated using Apache Airflow. A DAG (Directed Acyclic Graph) named `youtube_etl` is created with a single task `run_etl_task` that executes the ETL process. The DAG is scheduled to run daily to ensure that new comments are captured regularly.
+
+![airflow_run](Files/airflow_run.png)
+
 Youtube_ETL code is [HERE.](Files/youtube_dag.py)
 
 ## Conclusion
