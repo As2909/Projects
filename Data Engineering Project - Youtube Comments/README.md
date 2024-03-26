@@ -11,7 +11,7 @@ This project focuses on extracting, transforming, and loading (ETL) YouTube comm
 
 ## Data Extraction
 The project starts with extracting comments from a YouTube video using the YouTube Data API. Google has simplified their API usage, providing an API explorer that lets me see the returned data directly within explorer itself.
-![api_explore](/Files/google_api_explorer.png)
+![api_explore](Files/google_api_explorer.png)
 In my code i used `extract_data()` function  to fetches comments in batches using pagination to ensure all comments are retrieved.
 
 ## Data Transformation
