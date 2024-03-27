@@ -20,7 +20,7 @@ To extract and process YouTube comments data, we need to connect to an Azure VM 
 - Placed the given code in terminal
 ![connect_to_vm](Files/connect_to_vm.png)
 
-- Install required packages:
+- Install required packages: \
 pip install apache-airflow \
 pip install google-api-python-client \
 pip install pandas \
