@@ -25,7 +25,7 @@ pip install apache-airflow \
 pip install google-api-python-client \
 pip install pandas \
 pip install azure-storage-blob \
-pip install azure-identity \
+pip install azure-identity 
 
 - Navigate to the IAM (Identity and Access Management) section in the Azure portal.
 - Create a new role assignment for the Azure VM instance, giving it the role of "Storage Blob Data Contributor".
