@@ -20,12 +20,12 @@ To extract and process YouTube comments data, we need to connect to an Azure VM 
 - Placed the given code in terminal
 ![connect_to_vm](Files/connect_to_vm.png)
 
-## Install required packages:
-pip install apache-airflow 
-pip install google-api-python-client 
-pip install pandas 
-pip install azure-storage-blob 
-pip install azure-identity
+- Install required packages:
+pip install apache-airflow \
+pip install google-api-python-client \
+pip install pandas \
+pip install azure-storage-blob \
+pip install azure-identity \
 
 - Navigate to the IAM (Identity and Access Management) section in the Azure portal.
 - Create a new role assignment for the Azure VM instance, giving it the role of "Storage Blob Data Contributor".
