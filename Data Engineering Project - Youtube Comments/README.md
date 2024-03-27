@@ -3,6 +3,8 @@
 ## Project Overview
 This project focuses on extracting, transforming, and loading (ETL) YouTube comments data using the YouTube Data API and Azure Blob Storage. The goal is to collect comments from a specific YouTube video, process them into a structured format, and store them in Azure Blob Storage for further analysis. Azure VM is used to run airflow and orchestrate the whole ETL process.
 
+## Install required packages:
+   
 ## Tools and Technologies Used
 - Azure VM instance
 - Google API Client Library for accessing the YouTube Data API
@@ -24,6 +26,10 @@ To extract and process YouTube comments data, we need to connect to an Azure VM 
 - Create a new role assignment for the Azure VM instance, giving it the role of "Storage Blob Data Contributor".
 
 ![iam_to_vm](Files/iam_to_vm.png)
+
+- Start the Airflow webserver and scheduler: Start the Airflow webserver and scheduler to activate the DAG in terminal of vm.
+airflow webserver --port 8080
+airflow scheduler
 
 ## Data Extraction
 The project starts with extracting comments from a YouTube video using the YouTube Data API. Google has simplified their API usage, providing an API explorer that lets me see the returned data directly within explorer itself.
