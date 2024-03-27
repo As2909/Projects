@@ -32,8 +32,8 @@ pip install azure-identity
 
 ![iam_to_vm](Files/iam_to_vm.png)
 
-- Start the Airflow webserver and scheduler: Start the Airflow webserver and scheduler to activate the DAG in terminal of vm.
-airflow webserver --port 8080
+- Start the Airflow webserver and scheduler: Start the Airflow webserver and scheduler to activate the DAG in terminal of vm. \
+airflow webserver --port 8080 \
 airflow scheduler
 
 ## Data Extraction
