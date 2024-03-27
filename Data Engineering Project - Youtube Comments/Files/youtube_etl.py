@@ -14,12 +14,14 @@ def extract_data():
         api_service_name, api_version, developerKey=DEVELOPER_KEY)
 
     response_collection = []
+    
     nextPageToken = None
 
+    # Paginate through comments until all are retrieved
     while True:
         request = youtube.commentThreads().list(
             part="snippet,replies",
-            videoId="B-d97ZrAJZ0",
+            videoId="B-d97ZrAJZ0",  # Replace with the video ID you want to extract comments from
             pageToken=nextPageToken
         )
         response = request.execute()
@@ -49,10 +51,12 @@ def transform_data(response_collection):
     return pd.DataFrame(comments)
 
 def load_data(df):
-    account_url = "https://airflow1youtube2storage.blob.core.windows.net/"
+    # Azure Blob Storage credentials and container information
+    account_url = "YOUR_ACCOUNT_URL_HERE"
     container_name = "youtube-etl-airflow"
     blob_name = "oneplus12_youtube_comments.csv"
 
+    # Create a BlobClient to upload the DataFrame as a CSV file
     blob_client = BlobClient(
         account_url=account_url, 
         container_name=container_name, 
@@ -60,13 +64,20 @@ def load_data(df):
         credential=DefaultAzureCredential(),
     )
 
+    # Write DataFrame to a temporary CSV file and upload to Blob Storage
     df.to_csv("temp.csv", index=False)
     with open("temp.csv", "rb") as data:
         blob_client.upload_blob(data, overwrite=True)
 
+    # Remove the temporary CSV file
     os.remove("temp.csv")
 
 def run_etl():
+    # Extract data from YouTube API
     response_collection = extract_data()
+    
+    # Transform data into DataFrame
     df = transform_data(response_collection)
+    
+    # Load data into Azure Blob Storage
     load_data(df)
