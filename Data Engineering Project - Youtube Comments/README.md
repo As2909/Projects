@@ -3,7 +3,7 @@
 ## Project Overview
 This project focuses on extracting, transforming, and loading (ETL) YouTube comments data using the YouTube Data API and Azure Blob Storage. The goal is to collect comments from a specific YouTube video, process them into a structured format, and store them in Azure Blob Storage for further analysis. Azure VM is used to run airflow and orchestrate the whole ETL process.
 
-![data_process](Files/Data Process.png)
+![data_process](https://github.com/As2909/Projects/blob/main/Data%20Engineering%20Project%20-%20Youtube%20Comments/Files/Data%20Process.png)
 
 ## Tools and Technologies Used
 - Azure VM instance
