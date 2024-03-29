@@ -13,8 +13,14 @@ This project aims to build a real-time data pipeline for collecting, processing,
 #### Workflow
 1. **Data Extraction**
    - Use the CoinMarketCap API to fetch the latest cryptocurrency market data.
-   - Handle potential connection errors and timeouts gracefully.
+   - Handle potential connection errors and timeouts.
    - The producer to connect to the Kafka broker running on the Azure VM with the IP address 20.197.15.167 and port          9092.
+
+2. **Data Transformation**
+   - Convert the fetched data into JSON format for compatibility with Kafka.
+
+3. **Data Ingestion**
+   - Use KafkaProducer to publish the data to a Kafka topic named "crypto".
      
 ```python
 producer = KafkaProducer(bootstrap_servers=["20.197.15.167:9092"],
@@ -26,13 +32,6 @@ print("Data sent to Kafka topic successfully")
 
 ```  
 You can see the full KafkaProducer python code for data extraction is [HERE.](Files/KafkaProducer.ipynb)
-
-2. **Data Transformation**
-   - Convert the fetched data into JSON format for compatibility with Kafka.
-
-3. **Data Ingestion**
-   - Use KafkaProducer to publish the data to a Kafka topic named "crypto".
-
 
 4. **Data Storage**
    - Use KafkaConsumer to consume messages from the "crypto" topic.
@@ -51,5 +50,6 @@ You can see the full KafkaProducer python code for data extraction is [HERE.](Fi
      blob_client.upload_blob(message_json, overwrite=True)
 ```
 
+[final_output_blob](Files/final_output_blob.png)
 5. **Error Handling**
    - Implemented error handling to ensure the pipeline can recover from failures gracefully.
