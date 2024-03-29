@@ -49,5 +49,7 @@ You can see the full KafkaProducer python code for data extraction is [HERE.](Fi
      # Upload the JSON data as the blob content
      blob_client.upload_blob(message_json, overwrite=True)
 ```
+You can see full KakfaConsumer code is [HERE.](Files/KafkaConsumer.ipynb)
+
 ![final_output_blob](Files/final_output_blob.png)
 
