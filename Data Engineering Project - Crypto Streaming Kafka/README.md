@@ -49,7 +49,5 @@ You can see the full KafkaProducer python code for data extraction is [HERE.](Fi
      # Upload the JSON data as the blob content
      blob_client.upload_blob(message_json, overwrite=True)
 ```
+![final_output_blob](Files/final_output_blob.png)
 
-[final_output_blob](Files/final_output_blob.png)
-5. **Error Handling**
-   - Implemented error handling to ensure the pipeline can recover from failures gracefully.
