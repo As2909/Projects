@@ -13,7 +13,16 @@ This project aims to build a real-time data pipeline for collecting, processing,
 1. **Data Extraction**
    - Use the CoinMarketCap API to fetch the latest cryptocurrency market data.
    - Handle potential connection errors and timeouts gracefully. \
-You can see the KafkaConsumer python code for data extraction is [HERE.](Files/KafkaConsumer.ipynb)
+```python
+producer = KafkaProducer(bootstrap_servers=["20.197.15.167:9092"],
+                        value_serializer=lambda x: dumps(x).encode("utf-8"))
+for data in data_list:
+    producer.send('crypto', value=data)
+    sleep(1)
+print("Data sent to Kafka topic successfully")
+
+```  
+You can see the full KafkaProducer python code for data extraction is [HERE.](Files/KafkaProducer.ipynb)
 
 2. **Data Transformation**
    - Convert the fetched data into JSON format for compatibility with Kafka.
