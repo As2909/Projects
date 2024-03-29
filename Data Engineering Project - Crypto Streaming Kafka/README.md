@@ -56,3 +56,16 @@ You can see full KakfaConsumer code is [HERE.](Files/KafkaConsumer.ipynb)
 5. **External Table**
    - To query all the json files by KafkaConsumer we required to create a external table in serverless pool.
 ![externaltable_all_files](Files/externaltable_all_files.png)
+
+   - To make more readable we select only required columns to query.
+![ext_select_col](Files/ext_select_col.png)
+
+   - Count distinct id
+![ext_count_id](Files/ext_count_id.png)
+
+   - Top 10 Crypto by market cap
+![ext_top_10](Files/ext_top_10.png)
+
+
+**Note** : All keys are expired dont try to use it.
+   
