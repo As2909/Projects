@@ -33,9 +33,23 @@ You can see the full KafkaProducer python code for data extraction is [HERE.](Fi
 3. **Data Ingestion**
    - Use KafkaProducer to publish the data to a Kafka topic named "crypto".
 
+
 4. **Data Storage**
    - Use KafkaConsumer to consume messages from the "crypto" topic.
    - Upload each message to Azure Blob Storage as a JSON file in a container named "cryptomarket".
+   
+```python
+ for count, message in enumerate(consumer):
+     # Convert message to JSON format
+     message_json = json.dumps(message.value)
+     
+     # Create a blob client with a dynamically generated name
+     blob_name = "crypto_market_{}.json".format(count)
+     blob_client = container_client.get_blob_client(blob_name)
+
+     # Upload the JSON data as the blob content
+     blob_client.upload_blob(message_json, overwrite=True)
+```
 
 5. **Error Handling**
    - Implemented error handling to ensure the pipeline can recover from failures gracefully.
