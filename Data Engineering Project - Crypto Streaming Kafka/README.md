@@ -12,7 +12,8 @@ This project aims to build a real-time data pipeline for collecting, processing,
 #### Workflow
 1. **Data Extraction**
    - Use the CoinMarketCap API to fetch the latest cryptocurrency market data.
-   - Handle potential connection errors and timeouts gracefully.
+   - Handle potential connection errors and timeouts gracefully. \
+You can see the KafkaConsumer python code for data extraction is [HERE.](Files/KafkaConsumer.ipynb)
 
 2. **Data Transformation**
    - Convert the fetched data into JSON format for compatibility with Kafka.
@@ -25,4 +26,4 @@ This project aims to build a real-time data pipeline for collecting, processing,
    - Upload each message to Azure Blob Storage as a JSON file in a container named "cryptomarket".
 
 5. **Error Handling**
-   - Implement error handling to ensure the pipeline can recover from failures gracefully.
+   - Implemented error handling to ensure the pipeline can recover from failures gracefully.
