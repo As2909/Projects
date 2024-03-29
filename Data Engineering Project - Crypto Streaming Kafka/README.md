@@ -5,6 +5,7 @@ This project aims to build a real-time data pipeline for collecting, processing,
 
 #### Technologies Used
 - **Kafka:** A distributed streaming platform for handling real-time data feeds.
+- **Azure Vm** : A virtual machine to run kafka servers.
 - **Azure Blob Storage:** A cloud-based storage solution for storing large amounts of unstructured data.
 - **CoinMarketCap API:** An API for accessing cryptocurrency market data.
 - **Python:** It is used for implementing the data pipeline.
@@ -12,7 +13,9 @@ This project aims to build a real-time data pipeline for collecting, processing,
 #### Workflow
 1. **Data Extraction**
    - Use the CoinMarketCap API to fetch the latest cryptocurrency market data.
-   - Handle potential connection errors and timeouts gracefully. \
+   - Handle potential connection errors and timeouts gracefully.
+   - The producer to connect to the Kafka broker running on the Azure VM with the IP address 20.197.15.167 and port          9092.
+     
 ```python
 producer = KafkaProducer(bootstrap_servers=["20.197.15.167:9092"],
                         value_serializer=lambda x: dumps(x).encode("utf-8"))
