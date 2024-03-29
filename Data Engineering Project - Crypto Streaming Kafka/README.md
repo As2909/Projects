@@ -3,6 +3,8 @@
 #### Overview
 This project aims to build a real-time data pipeline for collecting, processing, and storing cryptocurrency market data using Kafka, Azure Blob Storage, and the CoinMarketCap API. The pipeline consists of two main components: a producer that fetches data from the API and publishes it to a Kafka topic, and a consumer that reads data from the Kafka topic and uploads it to Azure Blob Storage.
 
+![alt_text](Files/Crypto_Overview.png)
+
 #### Technologies Used
 - **Kafka:** A distributed streaming platform for handling real-time data feeds.
 - **Azure Vm** : A virtual machine to run kafka servers.
