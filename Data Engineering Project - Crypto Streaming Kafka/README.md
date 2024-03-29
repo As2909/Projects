@@ -53,3 +53,6 @@ You can see full KakfaConsumer code is [HERE.](Files/KafkaConsumer.ipynb)
 
 ![final_output_blob](Files/final_output_blob.png)
 
+5. **External Table**
+   - To query all the json files by KafkaConsumer we required to create a external table in serverless pool.
+![externaltable_all_files](Files/externaltable_all_files.png)
