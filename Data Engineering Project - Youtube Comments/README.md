@@ -94,7 +94,8 @@ The ETL process is orchestrated using Apache Airflow. A DAG (Directed Acyclic Gr
 
 ![airflow_run](Files/airflow_run.png)
 
-Youtube_DAG code is [HERE.](Files/youtube_dag.py)
+Youtube_DAG code is [HERE.](Files/youtube_dag.py) \
+The output generated CSV file for Oneplus_12 is [HERE.](Files/Oneplus_12_youtube.csv)
 
 ## Conclusion
 This project demonstrates an ETL pipeline for processing YouTube comments data using the Google API. Extracted data in CSV format can be further analyzed for sentiment analysis and used to recommend improvements for future YouTube videos. 
