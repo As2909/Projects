@@ -10,7 +10,7 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 - **Data Extraction:** Using Azure Data Factory's Lookup activity, the pipeline will retrieve the table names and schemas of the SalesLT schema from the AdventureWorks database. The foreach activity will iterate over each table and use the Copy activity to load the data into Azure Data Lake Storage Gen2 as Parquet files.
 - **Data Transformation :** Using Spark DataFrame operations, the data will be standardized, cleaned, and being stored in the `transformation-1` container.
 - **Data Normalization:** Column names in the transformed data will be normalized to ensure consistency.
-- **Data Loading:** Transformed data will be loaded into the `transformation-2` container in Delta format.
+- **Data Loading:** Transformed data will be loaded into the `transformation-2` container in Delta format. \
     `Converting Parquet tables to Delta format using Databricks adds additional capabilities, such as ACID transactions, time travel, and schema enforcement, making        it easier to manage and evolve your data pipelines over time.`
 - **Data Access:** Views will be created in Azure Synapse Analytics to enable querying of the Parquet files stored in Azure Data Lake Storage Gen2.
 
