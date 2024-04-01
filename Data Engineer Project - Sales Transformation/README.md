@@ -28,9 +28,10 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 ![connect_on_premise_database](Files/connect_to_on_premise_database.png)
 ![alt_text](Files/after_connect_to_on_premise_database.png)
 
-- **Data Extraction:** Using Azure Data Factory's Lookup activity, the pipeline will retrieve the table names and schemas of the SalesLT schema from the AdventureWorks database. The foreach activity will iterate over each table and use the Copy activity to load the data into Azure Data Lake Storage Gen2 as Parquet files. \
+- **Data Extraction:** Using Azure Data Factory's Lookup activity, the pipeline will retrieve the table names and schemas of the SalesLT schema from the AdventureWorks database. The foreach activity will iterate over each table and use the Copy activity to load the data into Azure Data Lake Storage Gen2 as Parquet files. 
 
 `Create Lookup Activity:`
+
 ![lookup](Files/lookup_table.png)
 
 ![alt_text](Files/lookup_table_preview_data.png)
