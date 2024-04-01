@@ -26,7 +26,7 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 
 `Connect To Local Database`:
 ![connect_on_premise_database](Files/connect_to_on_premise_database.png)
-![alt_text](Files/after_connect_to_on_premise.png)
+![alt_text](Files/after_connect_to_on_premise_database.png)
 
 - **Data Extraction:** Using Azure Data Factory's Lookup activity, the pipeline will retrieve the table names and schemas of the SalesLT schema from the AdventureWorks database. The foreach activity will iterate over each table and use the Copy activity to load the data into Azure Data Lake Storage Gen2 as Parquet files. \
 
@@ -40,6 +40,14 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 `Add Dynamic Content in Pipeline Expression builder:`
 
 ![alt_text](Files/for_each_output_pipeline_exp_for_each_table.png)
+
+`For-Each activity for copy each tables:`
+
+![alt_text](Files/for_each_copy_each_table_expression.png)
+
+`Load the tables as parquet files in the datalake-gen2:`
+
+![alt_text](parquet_table_sink.png)
 
 - **Data Transformation :** Using Spark DataFrame operations, the data will be standardized, cleaned, and being stored in the `transformation-1` container.
 - **Data Normalization:** Column names in the transformed data will be normalized to ensure consistency.
