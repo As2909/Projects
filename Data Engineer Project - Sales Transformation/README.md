@@ -50,13 +50,15 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 ![alt_text](parquet_table_sink.png)
 
 - **Data Transformation :** Using Spark DataFrame operations, the data will be standardized, cleaned, and being stored in the `transformation-1` container.
-
-``
   
 - **Data Normalization:** Column names in the transformed data will be normalized to ensure consistency.
+  
 - **Data Loading:** Transformed data will be loaded into the `transformation-2` container in Delta format. \
 `Converting Parquet tables to Delta format using Databricks adds additional capabilities, such as ACID transactions, time travel, and schema enforcement, making it easier to manage and evolve your data pipelines over time.`
-  
+
+`You can see the transformation code  click [HERE.](Files/databricks_transformation.py)` 
+![alt_text](Files/pipeline_run.png)
+
 
 #### Pipeline 2 : Create Views for Each table
 - **Create Views:** Views will be created in Azure Synapse Analytics to enable querying of the Parquet files stored in Azure Data Lake Storage Gen2.
