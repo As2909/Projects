@@ -4,9 +4,16 @@
 This project aims to create a comprehensive data transformation pipeline for Azure Data Lake Storage Gen2. The pipeline will handle data ingestion, processing, transformation, and storage using ADF , Synapse Analytics and Azure Databricks.
 
 #### Pipeline 1 :AdventureWorks Database Integration And Transformation
-- **Data Ingestion:** Raw data from the AdventureWorks database on an on-premise SQL Server will be ingested into Azure Data Lake Storage Gen2 (`ingested-data` container) using Azure Data Factory's self-hosted integration runtime with SQL authentication.
+- **Data Ingestion:** Raw data from the AdventureWorks database on an on-premise SQL Server will be ingested into Azure Data Lake Storage Gen2 (`ingested-data` container) using Azure Data Factory's self-hosted integration runtime with SQL authentication. \
+Database Preview:
 
-  
+![raw_database](Files/Raw_Database.png)
+
+Create Self-hosted Integeration Runtime on local Machine:
+
+![IR](Files/self_hosted_ir.png)
+
+
 - **Data Extraction:** Using Azure Data Factory's Lookup activity, the pipeline will retrieve the table names and schemas of the SalesLT schema from the AdventureWorks database. The foreach activity will iterate over each table and use the Copy activity to load the data into Azure Data Lake Storage Gen2 as Parquet files.
 - **Data Transformation :** Using Spark DataFrame operations, the data will be standardized, cleaned, and being stored in the `transformation-1` container.
 - **Data Normalization:** Column names in the transformed data will be normalized to ensure consistency.
@@ -17,7 +24,7 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 #### Pipeline 2 : Create Views for Each table
 - **Create Views:** Views will be created in Azure Synapse Analytics to enable querying of the Parquet files stored in Azure Data Lake Storage Gen2.
   
-### Technologies Used
+### Technologies Required
 - Apache Spark
 - Azure Databricks
 - Azure Data Lake Storage Gen2
