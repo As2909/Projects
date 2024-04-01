@@ -57,7 +57,7 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 - **Data Loading:** Transformed data will be loaded into the `transformation-2` container in Delta format. \
 `Converting Parquet tables to Delta format using Databricks adds additional capabilities, such as ACID transactions, time travel, and schema enforcement, making it easier to manage and evolve your data pipelines over time.`
 
-`You can see the transformation code  click [HERE.](Files/databricks_transformation.py)` 
+- You can see the transformation code  click [HERE.](Files/databricks_transformation.py) 
 ![alt_text](Files/pipeline_run.png)
 
 
