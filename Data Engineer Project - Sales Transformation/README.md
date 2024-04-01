@@ -47,7 +47,7 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 
 `Load the tables as parquet files in the datalake-gen2:`
 
-![alt_text](parquet_table_sink.png)
+![alt_text](Files/parquet_table_sink.png)
 
 - **Data Transformation :** Using Spark DataFrame operations, the data will be standardized, cleaned, and being stored in the `transformation-1` container.
   
@@ -61,9 +61,15 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 
 
 #### Pipeline 2 : Create Views for Each table
-- **Create Views:** Views will be created in Azure Synapse Analytics to enable querying of the Parquet files stored in Azure Data Lake Storage Gen2.
-  
+- **Create Views:** Views will be created in Azure Synapse Analytics to enable querying of the Delta files stored in Azure Data Lake Storage Gen2. \
 
+`Create Get Metadata Activity to get the the tables name: `
+Get Metadata Activity Output
+![output_getmetadata](Files/get_metadata_output.png)
+
+`For-Each activity for create Stored Procedure for each tables in datalake-gen2:`
+
+![alt_text](Files/run_2_pipeline_for_ech_st_procedure.png)
 
 ### Objectives
 - Ingest raw data into Azure Data Lake Storage Gen2.
