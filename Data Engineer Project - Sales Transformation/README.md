@@ -1,15 +1,19 @@
-## Data Pipeline For ON-Premise SQL Database
+## Data Pipeline For On-Premise SQL Database
 
 ### Overview
 This project aims to create a comprehensive data transformation pipeline for Azure Data Lake Storage Gen2. The pipeline will handle data ingestion, processing, transformation, and storage using ADF , Synapse Analytics and Azure Databricks.
 
+- Azure Services:
+![resources](Files/Resources.png)
+  
 #### Pipeline 1 :AdventureWorks Database Integration And Transformation
 - **Data Ingestion:** Raw data from the AdventureWorks database on an on-premise SQL Server will be ingested into Azure Data Lake Storage Gen2 (`ingested-data` container) using Azure Data Factory's self-hosted integration runtime with SQL authentication. \
-Database Preview:
+  
+`Database Preview:`
 
 ![raw_database](Files/Raw_Database.png)
 
-Create Self-hosted Integeration Runtime on local Machine:
+`Create Self-hosted Integeration Runtime on local Machine:`
 
 ![IR](Files/self_hosted_ir.png)
 
