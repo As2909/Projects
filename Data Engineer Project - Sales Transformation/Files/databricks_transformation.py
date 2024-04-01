@@ -2,7 +2,7 @@
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
-# connect to datalakegen2 containers 
+# Mount the datalakegen2 containers 
 try:
   configs = {
   "fs.azure.account.auth.type": "CustomAccessToken",
