@@ -9,6 +9,7 @@ This project aims to create a comprehensive data transformation pipeline for Azu
 - Azure Data Lake Storage Gen2
 - Azure Synapse Analytics
 - Azure Data Factory
+- Azure Key Vault
   
 `Azure Services:`
 ![resources](Files/Resources.png)
