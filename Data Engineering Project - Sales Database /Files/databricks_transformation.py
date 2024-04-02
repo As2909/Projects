@@ -39,12 +39,12 @@ try:
     extra_configs = configs)
 except:
   print("Already Mounted transformation-2 Container")
+
+
+#### Transformation_1
 table_names = []
 # Select the path of all tables
 files_path = dbutils.fs.ls("/mnt/ingested-data/SalesLT/")
-
-
-
 
 # Insert the all table_name in table_names_list
 for i in files_path:
@@ -60,6 +60,9 @@ for i in table_names:
 
     output_path = "/mnt/transformation-1/SalesLT/" + i + "/"
     df.write.format("delta").mode("overwrite").save(output_path)
+
+
+#### Transformation_2
 table_names = []
 
 level_1_transformed_path = dbutils.fs.ls("mnt/transformation-1/SalesLT/")
