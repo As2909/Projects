@@ -87,5 +87,5 @@ Get Metadata Activity Output
 - Scalable and efficient data processing : Convert to Delta Format.
 
 ### Conclusion
-These projects provide robust data transformation pipelines for Azure Data Lake Storage Gen2, enabling organizations to derive valuable insights from high-quality, standardized data.
+This projects provide robust data transformation pipelines for Azure Data Lake Storage Gen2, enabling organizations to derive valuable insights from high-quality, standardized data.
 
