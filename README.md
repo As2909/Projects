@@ -30,7 +30,7 @@ You can access it [here.](https://github.com/As2909/Projects/blob/main/Sales%20A
 
 ### PowerBI - Survey Analysis
 #### Project overview
-In this project, I created a dashboard in Power BI to visualize and analyze the dataset "data_professional_survey" This dataset contains information about data professionals, including their demographics, job roles, salaries, and more. The goal of the dashboard is to provide insights into the characteristics and trends of data professionals based on the survey data.
+In this project, I created a dashboard in Power BI to visualize and analyze the dataset "data_professional_survey" This dataset contains information about data professionals, including their demographics, job roles, salaries, and more. The goal of the dashboard is to provide insights into the characteristics and trends of data professionals based on the survey data. \
 You can access it [here.](https://github.com/As2909/Projects/blob/main/PowerBI%20-%20Survey%20Analysis/README.md)
 ![dashboard](https://github.com/As2909/Projects/blob/main/PowerBI%20-%20Survey%20Analysis/Files/final%20dashboard.png)
 
@@ -52,6 +52,6 @@ The SQL script is [here.](https://github.com/As2909/Projects/blob/main/SQL%20-%2
 An electronics store needs to increase its profits
 A KPI is found that will allow to increase profits at the lowest cost.
 Sales were evaluated by product, city, time and over time.
-This analysis was done on a database with 180,000 values using Excel only.
+This analysis was done on a database with 180,000 values using Excel only. \
 You can access it [here.](https://github.com/As2909/Projects/blob/main/Excel%20-%20Sales%20Analysis/README.md)
 ![dashboard](https://github.com/As2909/Projects/blob/main/Excel%20-%20Sales%20Analysis/Files/Sales_overview.PNG)
