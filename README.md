@@ -43,6 +43,15 @@ You can access it [here.](https://github.com/As2909/Projects/blob/main/Tableau%2
 
 ### SQL - Data Cleaning
 #### Project overview
-This SQL script performs data cleaning operations on the Nashville Housing dataset. The dataset contains information about housing properties in Nashville, including sale dates, property addresses, and owner addresses. The script standardizes the date format, populates missing property addresses, breaks out addresses into individual columns (address, city, state), converts 'Y' and 'N' values to 'Yes' and 'No' in the 'SoldAsVacant' field, removes duplicate records, and deletes unused columns. \
-You can access it [here.](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/README.md)
+SQL is used to performs data cleaning operations on the Nashville Housing dataset. The dataset contains information about housing properties in Nashville, including sale dates, property addresses, and owner addresses. The script standardizes the date format, populates missing property addresses, breaks out addresses into individual columns (address, city, state), converts 'Y' and 'N' values to 'Yes' and 'No' in the 'SoldAsVacant' field, removes duplicate records, and deletes unused columns. \
+You can access it [here.](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/README.md) \
 The SQL script is [here.](https://github.com/As2909/Projects/blob/main/SQL%20-%20Data%20Cleaning/Files/Data%20Cleaning.sql)
+
+### Excel - Sales Analysis
+#### Project Overview
+An electronics store needs to increase its profits
+A KPI is found that will allow to increase profits at the lowest cost.
+Sales were evaluated by product, city, time and over time.
+This analysis was done on a database with 180,000 values using Excel only.
+You can access it [here.](https://github.com/As2909/Projects/blob/main/Excel%20-%20Sales%20Analysis/README.md)
+![dashboard](https://github.com/As2909/Projects/blob/main/Excel%20-%20Sales%20Analysis/Files/Sales_overview.PNG)
